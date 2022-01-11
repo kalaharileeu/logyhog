@@ -2,9 +2,9 @@
 
 Logyhog was made to help monitor 100's of iot devices at a time. With features like pass/fail, y data, xy data and text data
 
-### Markdown
+### Run Environment
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Logyhog is deployed to an Kubenetes environment. This project contains the deployment files and the instructions to do so.
 
 ```markdown
 Syntax highlighted code block
