@@ -10,7 +10,7 @@ Logyhog is deployed to an Kubenetes cluster or on Kubernetes on Windows that run
 # Steps to your first logged data.
 1. You will need to have a running insance of Logyhog.
 2. You will need a copy of the Python 3 driver that will enable you to log data.
-(As of 24 January. My NetStandard 2.1 driver is out of date. I'm working to fix that.)
+(As of 24 January 2022. My NetStandard 2.1 driver is out of date. I'm working to fix that.)
 
 ## Header 2
 ### Header 3
