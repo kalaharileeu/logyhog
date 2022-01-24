@@ -1,14 +1,16 @@
 ## Overview (Still working on this page jan 22)
 
-Logyhog was made to help monitor 100's of iot devices at a time. With features like pass/fail, y data, xy data and text data
+Logyhog is a IOT dashboard. Logyhog was made to help monitor 100's of iot devices at a time. With features like pass/fail, y data, xy data and text data.
 
 ### Run Environment
 
-Logyhog is deployed to an Kubenetes environment. This project contains the deployment files and the instructions to do so.
+Logyhog is deployed to an Kubenetes cluster or on Kubernetes on Windows that runs docker desktop. This project contains the deployment files and the instructions to do so.
 
 ```markdown
-# Header 1
-Still working on the this page
+# Steps to your first logged data.
+1. You will need to have a running insance of Logyhog.
+2. You will need a copy of the Python 3 driver that will enable you to log data.
+(As of 24 January. My NetStandard 2.1 driver is out of date. I'm working to fix that.)
 
 ## Header 2
 ### Header 3
