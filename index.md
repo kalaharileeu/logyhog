@@ -9,7 +9,7 @@ The user can then look at the FAILED node/unit Y, XY or text data with the Logyh
 
 ### Dashboard
 
-![image info](../images/sets_one_fail.jpg)
+![Example Dashboard](images/sets_one_fail.jpg)
 
 A example dashboard showing eleven devices. The below code creates this simple dashboard.
 
