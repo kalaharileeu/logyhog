@@ -58,6 +58,17 @@ if __name__ == "__main__":
 
 Logyhog is deployed to an Kubenetes cluster or on Kubernetes on Windows that runs docker desktop. This project contains the deployment files and the instructions to do so.
 
+## How to start Logyhog Kubernetes (Docker desktop)
+
+1. Create the ingress controller
+
+```powershell
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/cloud/deploy.yaml
+```
+
+2. 
+
+
 # Steps to your first logged data
 
 1. You will need to have a running instance of Logyhog.
