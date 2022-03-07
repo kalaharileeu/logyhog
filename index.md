@@ -60,14 +60,27 @@ Logyhog is deployed to an Kubenetes cluster or on Kubernetes on Windows that run
 
 ## How to start Logyhog Kubernetes (Docker desktop)
 
-1. Create the ingress controller
+### Create the ingress controller
 
 ```powershell
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/cloud/deploy.yaml
 ```
 
-2. 
+### Setup the configmaps
 
+```powershell
+kubectl create configmap logmini --from-file=logmini_appsettings
+
+kubectl create configmap logstuff --from-file=logstuff_appsettings
+```
+
+### Deploy the test op the application
+
+```powershell
+kubectl apply -f .
+```
+
+Note: the "." after the -f
 
 # Steps to your first logged data
 
